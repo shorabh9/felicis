@@ -198,7 +198,9 @@ export default function JungleVenturesHero() {
     <div className="w-full min-h-screen bg-white text-black relative overflow-hidden">
       {/* Header */}
       <header className="w-full p-4 md:p-6 flex justify-between items-center z-10 relative">
-        <div className="text-2xl md:text-3xl font-bold">JUNGLE</div>
+        <div className="text-2xl md:text-3xl font-bold">
+          <img src='/logo1.png'/>
+        </div>
         <div className="hidden md:flex space-x-8">
           <a href="#" className="hover:opacity-70">Portfolio</a>
           <a href="#" className="hover:opacity-70">Team</a>
